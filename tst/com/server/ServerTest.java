@@ -1,4 +1,4 @@
-package com.company;
+package com.server;
 
 import org.junit.Test;
 import org.mockito.Mockito;
