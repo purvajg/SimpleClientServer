@@ -17,7 +17,7 @@ public class ServerTest {
   public void listen() throws IOException {
     Server server = new Server(PORT);
     ServerSocket serverSocket = Mockito.mock(ServerSocket.class);
-    //server.setServerSocket(serverSocket);
+    server.setServerSocket(serverSocket);
 
     Socket socket = Mockito.mock(Socket.class);
 
